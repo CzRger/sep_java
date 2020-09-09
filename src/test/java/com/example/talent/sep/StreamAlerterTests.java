@@ -37,6 +37,7 @@ public class StreamAlerterTests {
             if (as.query(ch)) count += 1;
         }
         // TODO 按照您的实际情况写运行时间，并在提交时说明这两种情况下耗时情况
+        // 总耗时15s
         // on my Laptop,
         // total time is about 25s, Random use 11s, Trie+Ring use 14s
         assertNotEquals(0, count); // count > 0
